@@ -1,4 +1,4 @@
-# UTS Pemrograman Web_Personal Portofolio Wbsite
+# UTS Pemrograman Web_Personal Portofolio Website
 
 ## Anggota Kelompok dan Jobdesk
 - Hammam Jauharul Karim : Membuat halaman awal(Main Menu) dan halaman personal web milik sendiri
