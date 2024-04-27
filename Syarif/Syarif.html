@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Website UTS</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <button class="back-btn"><a href="../index.html">Kembali</a></button>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#videos">UNIVERSITY</a></li>
+            <li><a href="#Projects">PROJECTS</a></li>
+        </ul>
+
+    </nav>
+    <div class="hero" id="home">
+        <div class="content">
+            <h4>halo! namaku</h4>
+            <h1>Syarif Hidayatullah</h1>
+            <h3>selamat datang di personal websiteku!</h3>
+            <div class="news">
+                <form action="#about" method="get">
+                    <input type="text" name="readonly_form" value="Klik Untuk Lanjut" readonly>
+                    <input type="submit" value="Disini">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="main">
+            <img src="assets/Img/aib1.jpg" width="240" height="300">
+            <div class="about-text">
+                <h2>tentang saya</h2>
+                <h5>programmer pemula & mahasiswa</h5>
+                <p class="text-one">
+                    selamat datang di personal website saya sebelumnya perkenalkan saya syarif hidayatullah seorang
+                    mahasiswa aktif di <span>telkom university</span> surabaya angkatan 2022 dengan program studi
+                    informatika.
+                    seorang programmer pemula, umur 20 tahun, lahir di surabaya. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video-->
+    <section id="videos">
+        <h2 class="videos">University</h2>
+
+        <div class="video-slideshow-container">
+            <div class="video-container">
+                <video width="100%" controls>
+                    <source src="assets/Vid/Video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 class="video-title">Footage <span>Telkom University</span> Surabaya</h3>
+            </div>
+
+            <div class="container">
+                <div class="mySlides">
+                    <img src="assets/Img/TelkomUniversity1.jpg" style="width: 100%;">
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/Img/TelkomUniversity2.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/Img/TelkomUniversity3.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/Img/TelkomUniversity4.png" style="width: 100%;">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption" style="text-align: center; font-size: 20px; color: white;"><strong>Gedung
+                            <span>Telkom University</span> Surabaya</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project" id="Projects">
+        <div class="title">
+            <h2>Projects</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-network-wired"></i>
+                <h5>Pemrograman Jaringan</h5>
+                <div class="pra">
+                    <p>Project Kampus Mata Kuliah Pemrograman Jaringan</p>
+                    <p style="text-align: center;"></p>
+                    <a href="https://github.com/7Riv/Pemrograman-jaringan" class="button">Cek</a>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-globe"></i>
+                <h5>Pemrograman Website</h5>
+                <div class="pra">
+                    <p>Project Kampus Mata Kuliah Pemrograman Web</p>
+                    <p style="text-align: center;"></p>
+                    <a href="https://github.com/7Riv/Pemrograman-web" class="button">Cek</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Kontak">
+        <div class="contact">
+            <h3>Lebih Lanjut Tentangku Disini</h3>
+            
+            <form action="mailto:riv74.sh@gmail.com" method="post" enctype="text/plain"></form>
+            <input type="email" name="email" placeholder="masukan email anda" id="mail">
+            <input type="text" name="nama" placeholder="masukan nama anda" id="nama">
+            <textarea type="pesan" name="pesan" rows="3" cols="25"></textarea>   
+            <input type="submit" value="Kirim">        
+        </div>
+    </section>
+  
+
+    <footer>
+         <p>Syarif Hidayatullah</p>
+         <div class="sosial">
+            <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1661741489&extra_1=s%7Cc%7C513502597352%7Ce%7Cfacebook%7C&placement=&creative=513502597352&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1661741489%26adgroupid%3D65609010858%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9127633%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=CjwKCAjwoa2xBhACEiwA1sb1BI75zqQOgzrz0terJd4XTCBq4AZI3LWrrWTZnkw1fYBkNeNazM6ikRoC7FYQAvD_BwE"><div class="icon-bg"><i class="fa-brands fa-facebook"></i></div></a>
+            <a href="https://wa.me/+6282110134321"><div class="icon-bg"><i class="fa-brands fa-whatsapp"></i></div></a>
+            <a href="https://www.instagram.com/_rivvi/"><div class="icon-bg"><i class="fa-brands fa-instagram"></i></div></a>
+         </div>
+         <p class="end">CopyRight@ 2024 7Riv.com</p>
+    </footer>
+
+    <!-- javascript -->
+    <script src="assets/script/script.js"></script>
+    <script src="assets/script/script2.js"></script>
+    
+    <div class="btn-back_to_top"><i class="fa-solid fa-arrow-up"></i></div>
+</body>
+</html> 
